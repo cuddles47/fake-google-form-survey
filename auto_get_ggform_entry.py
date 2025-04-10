@@ -1,3 +1,4 @@
+# file này để lấy entry ID của các trường trong Google Form
 import requests
 import re
 import json
@@ -84,3 +85,5 @@ for entry_id, question_data in questions.items():
         payload[entry_id] = "Sample answer"
 
 print(json.dumps(payload, indent=2, ensure_ascii=False))
+
+

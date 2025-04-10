@@ -1,3 +1,4 @@
+# file này để tự động điền vào Google Form
 import requests
 import random
 import time
