@@ -5,7 +5,8 @@ import json
 from bs4 import BeautifulSoup
 
 # Link đến trang VIEWFORM (not formResponse)
-form_url = "https://docs.google.com/forms/d/e/1FAIpQLSeWl9qBipUz4oJTRc3joixKfiz3gi00SBKeQcFEksNukn2fcg/viewform"
+form_url = "https://docs.google.com/forms/d/e/1FAIpQLSe82-4PqFTEkXkpuvfdIvhshAbnIPC8gdPAeAc5yYRMRkIntQ/viewform"
+
 
 # Tải HTML trang form
 res = requests.get(form_url)
